@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "A Node.js project for streaming basic video and audio content.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bxs9775/streaming-media-assignment.git"
+  },
+  "author": "Brian Sandon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bxs9775/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/bxs9775/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}

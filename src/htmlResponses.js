@@ -8,5 +8,5 @@ const getIndex = (request, response) => {
   response.end();
 };
 
-//Export module
+// Export module
 module.exports.getIndex = getIndex;

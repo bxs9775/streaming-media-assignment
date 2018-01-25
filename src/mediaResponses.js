@@ -15,7 +15,7 @@ const getParty = (request, response) => {
       return response.end(err);
     }
 
-    let range = request.headers.range;
+    let { range } = request.headers;
 
     // Sets range to 0- if none is specified.
     if (!range) {
